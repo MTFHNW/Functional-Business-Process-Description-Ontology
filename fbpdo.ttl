@@ -1,21 +1,15 @@
-# Functional Business Process Description Ontology
 # baseURI: http://ikm-group.ch/archimeo/fbpdo
 # prefix: fbpdo
 
+@prefix fbpdo: <http://ikm-group.ch/archimeo/fbpdo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix fbpdo: <http://ikm-group.ch/archimeo/fbpdo#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ikm-group.ch/archimeo/fbpdo>
   rdf:type owl:Ontology ;
   owl:versionInfo "Created with TopBraid Composer"^^xsd:string ;
-.
-fbpdo:FunctionalBusinessProcessDescription
-  rdf:type owl:Class ;
-  rdfs:label "Functional Business Process Description"^^xsd:string ;
-  rdfs:subClassOf owl:Thing ;
 .
 fbpdo:Accept
   rdf:type owl:Class ;
@@ -111,6 +105,11 @@ fbpdo:Bank
   rdf:type owl:Class ;
   rdfs:label "Bank"^^xsd:string ;
   rdfs:subClassOf fbpdo:Organisation ;
+.
+fbpdo:Ben
+  rdf:type owl:Class ;
+  rdfs:label "Ben"^^xsd:string ;
+  rdfs:subClassOf fbpdo:Object ;
 .
 fbpdo:Blog
   rdf:type owl:Class ;
@@ -446,6 +445,11 @@ fbpdo:Forward
   rdf:type owl:Class ;
   rdfs:label "Forward"^^xsd:string ;
   rdfs:subClassOf fbpdo:Send ;
+.
+fbpdo:FunctionalBusinessProcessDescription
+  rdf:type owl:Class ;
+  rdfs:label "Functional Business Process Description"^^xsd:string ;
+  rdfs:subClassOf owl:Thing ;
 .
 fbpdo:Gain
   rdf:type owl:Class ;
