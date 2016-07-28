@@ -106,11 +106,6 @@ fbpdo:Bank
   rdfs:label "Bank"^^xsd:string ;
   rdfs:subClassOf fbpdo:Organisation ;
 .
-fbpdo:Ben
-  rdf:type owl:Class ;
-  rdfs:label "Ben"^^xsd:string ;
-  rdfs:subClassOf fbpdo:Object ;
-.
 fbpdo:Blog
   rdf:type owl:Class ;
   rdfs:label "Blog"^^xsd:string ;
