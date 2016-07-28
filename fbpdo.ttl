@@ -163,7 +163,7 @@ fbpdo:Comment
 .
 fbpdo:Communication
   rdf:type owl:Class ;
-  rdfs:label "Communication channel"^^xsd:string ;
+  rdfs:label "Communication"^^xsd:string ;
   rdfs:subClassOf fbpdo:Object ;
 .
 fbpdo:Complain
