@@ -799,6 +799,11 @@ fbpdo:Post
 fbpdo:Prepare
   rdf:type owl:Class ;
   rdfs:label "Prepare"^^xsd:string ;
+  rdfs:subClassOf fbpdo:MakeCreate ;
+.
+fbpdo:Prepare1
+  rdf:type owl:Class ;
+  rdfs:label "Prepare"^^xsd:string ;
   rdfs:subClassOf fbpdo:ModifyChange ;
 .
 fbpdo:Preserve
